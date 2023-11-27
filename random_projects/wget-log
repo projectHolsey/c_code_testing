@@ -1,0 +1,11 @@
+--2023-10-31 14:22:05--  https://apt.corretto.aws/corretto.key
+Resolving apt.corretto.aws (apt.corretto.aws)... 18.239.183.66, 18.239.183.14, 18.239.183.88, ...
+Connecting to apt.corretto.aws (apt.corretto.aws)|18.239.183.66|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 1695 (1.7K) [binary/octet-stream]
+Saving to: ‘STDOUT’
+
+-                            0%[                                      ]       0  --.-KB/s               -                          100%[=====================================>]   1.66K  --.-KB/s    in 0s      
+
+2023-10-31 14:22:05 (13.0 MB/s) - written to stdout [1695/1695]
+
