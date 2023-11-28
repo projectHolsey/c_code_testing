@@ -45,8 +45,9 @@ int main() {
 
 
     // calloc array
-    int *dynamicArray2 = (int*)calloc(5 * sizeof(int));
-    
+    int *dynamicArray2 = (int*)calloc(5, sizeof(int));
+    // {0, 0, 0, 0, 0}
+
 
     // realloc array
     int *dynamicArray3 = (int*)realloc(dynamicArray, 10 * sizeof(int));
@@ -123,7 +124,7 @@ void example_usage3() {
     for (int i = 0; i < rows; i++) {
         free(matrix[i]);
     }
-    
+
     // Free allocated memory for the array of row pointers
     free(matrix);
 
